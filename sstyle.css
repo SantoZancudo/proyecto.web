@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    min-height: 100vh; 
+    background-color: #0e0d0d; 
+    color: #333; 
+}
+
+
+main {
+    width: 80%; 
+    max-width: 800px; 
+    background: white; 
+    padding: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    margin-top: 20px; 
+}
+
+/* Encabezado */
+header {
+    text-align: center; 
+    width: 100%; 
+    background: rgb(167, 11, 11); 
+    color: white;
+    padding: 20px 0; 
+    border-radius: 10px 10px 0 0; 
+    box-sizing: border-box; 
+}
+
+/* Títulos */
+h1 {
+    margin: 0;
+    font-size: 2rem; 
+}
+
+h2 {
+    margin-top: 20px;
+    color: #007BFF; 
+}
+
+/* Listas */
+ul {
+    list-style: none; 
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Párrafos */
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: whitesmoke; /* Color de fondo del footer */
+    color: rgb(0, 0, 0); /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    margin-top: 20px; /* Espacio superior que lo separa del contenido */
+}
